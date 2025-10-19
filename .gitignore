@@ -1,0 +1,62 @@
+# Игнорировать виртуальные окружения
+venv/
+.venv/
+.env/
+.envrc
+
+# Игнорировать файлы с переменными окружения
+.env
+
+# Игнорировать файлы/папки, создаваемые IDE
+.idea/
+.specs/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать файлы сборки
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Игнорировать логи
+*.log
+# Игнорировать папку логов
+logs/
+
+# Игнорировать временные файлы
+*.tmp
+*.temp
+.DS_Store
+
+# Игнорировать результаты анализа
+*.xlsx
+*.csv
+word_analysis_results.xlsx
+
+# Игнорировать папки с данными
+data/downloads/
+data/results/
+cache/
+
+# Игнорировать временные файлы и папки
+tmp/
+temp/
+
+
+# Игнорировать устаревшие файлы
+known_words.txt
+
+
+
+# Игнорировать тестовые файлы
+.pytest_cache/
+.coverage
+htmlcov/
+# Virtual environments
+venv/
+.venv/
